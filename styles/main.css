@@ -1,0 +1,17 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    display: block;
+    margin: 1em
+}
+nav a{
+    text-decoration: none;
+    background-color: darkolivegreen;
+    color: goldenrod;
+    font-size: 1em;
+    padding: 0.25em;
+    margin: 1px;
+    border-radius: 0.25em;
+    display: inline-block;
+}
