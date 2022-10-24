@@ -6,7 +6,14 @@ function locationOption(item) {
 }
 
 function parkCard(item) {
-    const card = document.createElement("div");
+    let card;
+    if(item.Visit != undefined){
+        card = document.createElement("a");
+        card.target = "_blank";
+        card.href = item.Visit;
+    }else{
+        card = document.createElement("div");
+    }
     card.classList.add("card");
     card.innerHTML = item.LocationName;
     return card;
