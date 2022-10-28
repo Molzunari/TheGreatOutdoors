@@ -2,6 +2,10 @@ body{
     padding: 1em;
     background-color: skyblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url ("/images/city.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 nav{
     display: block;
@@ -11,7 +15,7 @@ a{
     text-decoration: none;
 }
 nav a{
-    background-color: darkolivegreen;
+    background-color: rgb(105, 47, 107);
     color: goldenrod;
     font-size: 1em;
     padding: 0.25em;
